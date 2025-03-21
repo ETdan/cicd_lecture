@@ -21,4 +21,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: pytest
+        run: pytest test.py # Adjust the path to your test file if necessary
